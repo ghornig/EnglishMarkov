@@ -8,7 +8,7 @@ import pickle
 dictionary = set([]);
 
 # A list of all of the text files we're going to use:
-listT = ['aliceinwonderland.txt', 'aroundtheworldineightydays.txt', 'gulliverstravels.txt', 'history of ireland.txt', 'spacepirates.txt'];
+listT = ['aliceinwonderland.txt', 'aroundtheworldineightydays.txt', 'gulliverstravels.txt', 'history of ireland.txt', 'spacepirates.txt', 'ataleoftwocities.txt','dracula.txt','houndofbaskervilles.txt','junglebook.txt','peterpan.txt','prideandprejudice.txt','thecagedlion.txt'];
 
 stringT = [None]*100;
 

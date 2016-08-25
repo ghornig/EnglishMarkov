@@ -2,6 +2,7 @@ import re
 from sets import Set
 import random
 import pickle
+import os
 
 # Open up the files previously created by the parser
 freqdict = pickle.load(open("freqdict.p","rb"));
@@ -35,6 +36,8 @@ for q in excerpt:
 
 print excerptEnglish;
 
-text_file = open("Output.txt", "w")
+os.remove("Output.txt")
+
+text_file = open("Output.txt", "w+")
 text_file.write(excerptEnglish)
 text_file.close()
